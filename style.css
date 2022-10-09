@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0.25turn, #e8dfca, #aebdca, #7895b2);
+}
+
+.converterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  margin: 10% auto;
+  background: linear-gradient(0.75turn, #eddbc0, #f0ebe3, #eddbc0);
+}
+
+.meterValue,
+.meterValue button,
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.meterValue {
+  padding-top: 60px;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: oblique;
+  color: #1c3879;
+}
+
+#meter {
+  width: 80px;
+  background-color: #f9f9f9;
+}
+
+.meterValue button {
+  width: 80px;
+  padding: 0;
+  background-color: #967e76;
+  color: #f9f9f9;
+  font-weight: bold;
+  margin: 20px auto 50px auto;
+}
+
+.meterValue button:hover {
+  background-color: #aebdca;
+  border: 2px solid #967e76;
+  color: #1c3879;
+}
+
+.result {
+  flex-direction: column;
+  width: 100px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+}
